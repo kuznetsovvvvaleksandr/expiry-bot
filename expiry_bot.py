@@ -1,13 +1,13 @@
 import logging
+import os
 from aiogram import Bot, Dispatcher, executor, types
-from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from datetime import datetime, timedelta
 import asyncio
 
-API_TOKEN = '7825679766:AAEcmgkMdwUl77gkgSFBcrmxEk0WLsDEVBU'
+API_TOKEN = os.getenv('7825679766:AAEcmgkMdwUl77gkgSFBcrmxEk0WLsDEVBU')
 
 logging.basicConfig(level=logging.INFO)
 
