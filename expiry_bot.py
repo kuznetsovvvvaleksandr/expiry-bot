@@ -7,7 +7,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from datetime import datetime, timedelta
 import asyncio
 
-API_TOKEN = os.getenv('7825679766:AAEcmgkMdwUl77gkgSFBcrmxEk0WLsDEVBU')
+API_TOKEN = os.getenv('BOT_TOKEN')
 
 logging.basicConfig(level=logging.INFO)
 
